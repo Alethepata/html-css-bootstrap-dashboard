@@ -5,8 +5,23 @@ body{
   height: 100vh;
 }
 section:nth-child(1){
+  height: 60px;
+  border: 1px solid aqua;
+}
+.bell_custom{
+  margin: 0;
+  padding: 0;
+}
+.search_custom{
+  width: 80%;
+
+}
+nav img{
+  height:40px;
+}
+section:nth-child(2){
   background-color: #051e34;
   background-image: url(/img/sidebar-bg.png);
-  height: 100%;
+  height: calc(100% - 60px);
   width: 80px;
 }
