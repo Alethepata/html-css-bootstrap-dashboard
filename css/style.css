@@ -3,10 +3,17 @@ body{
 }
 .main-wrapper{
   height: 100vh;
+  display: flex;
 }
 section:nth-child(1){
   height: 60px;
   border: 1px solid aqua;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+section:nth-child(2){
+margin-top: 60px;
 }
 .bell_custom{
   margin: 0;
@@ -19,9 +26,14 @@ section:nth-child(1){
 nav img{
   height:40px;
 }
-section:nth-child(2){
+.aside{
   background-color: #051e34;
   background-image: url(/img/sidebar-bg.png);
-  height: calc(100% - 60px);
+  height:100%;
   width: 80px;
+}
+.content{
+  height: 100%;
+  width: calc(100% - 80px);
+  overflow: auto;
 }
