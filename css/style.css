@@ -34,6 +34,8 @@ nav img{
 }
 .content{
   height: 100%;
-  width: calc(100% - 80px);
   overflow: auto;
+}
+.ms_container{
+margin: 15px;
 }
