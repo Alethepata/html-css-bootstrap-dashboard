@@ -7,7 +7,6 @@ body{
 }
 section:nth-child(1){
   height: 60px;
-  border: 1px solid aqua;
   position: fixed;
   width: 100%;
   top: 0;
@@ -23,7 +22,7 @@ margin-top: 60px;
   width: 80%;
 
 }
-nav img{
+.logo_custom img:first-child{
   height:40px;
 }
 .aside{
