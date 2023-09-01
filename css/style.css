@@ -32,6 +32,10 @@ nav img{
   height:100%;
   width: 80px;
 }
+.aside button{
+  background-color: rgba(0, 0, 0,0);
+  border: none;
+}
 .content{
   height: 100%;
   overflow: auto;
@@ -41,6 +45,7 @@ margin:15px;
 }
 .p_container{
 padding: 25px 15px;
+}
 
 .button_custom{
   background-color: rgba(0, 0, 0,0.2);
