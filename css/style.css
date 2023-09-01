@@ -42,4 +42,12 @@ margin:15px;
 .p_container{
 padding:25px 15px 50px 15px;
 }
+.text_custom_large{
+  font-size: large;
+
+}
+.text_custom_xxlarge{
+  font-size: xx-large;
+
+}
 
