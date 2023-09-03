@@ -49,6 +49,10 @@ padding: 25px 15px;
 .button_custom{
   background-color: rgba(0, 0, 0,0.2);
 }
+.class_avatar{
+  height: 40px;
+  vertical-align: middle;
+}
 @media screen and (min-width:1200px) {
   .aside{
     width: 220px;
