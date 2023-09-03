@@ -19,7 +19,7 @@ margin-top: 60px;
   padding: 0;
 }
 .search_custom{
-  width: 80%;
+  width: 75%;
 
 }
 .logo_custom img:first-child{
@@ -49,8 +49,8 @@ padding: 25px 15px;
 .button_custom{
   background-color: rgba(0, 0, 0,0.2);
 }
-@media screen and (min-width:992px) {
+@media screen and (min-width:1200px) {
   .aside{
-    width: 200px;
+    width: 220px;
   }
 }
