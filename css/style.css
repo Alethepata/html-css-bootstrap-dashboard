@@ -57,4 +57,10 @@ padding: 25px 15px;
   .aside{
     width: 220px;
   }
+  .row_card_1_custom{
+    width: 100%;
+  }
+  .row_card_2_custom{
+    width: 40%;
+  }
 }
